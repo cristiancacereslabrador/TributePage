@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Caveat&display=swap");
+html {
+  font-size: 10px;
+  padding: 0;
+  border: 0;
+  background-color: #2b2318;
+  text-align: center;
+  /*paleta de colores*/
+  color: #756c55;
+  color: #e2d4b1;
+  color: #2b2318;
+  color: #c2b48f;
+  color: #bdbbac;
+}
+
+#main {
+  background-color: #2b2318;
+  background-position: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 0px;
+  margin: 0;
+  text-align: center;
+}
+@media (max-width: 460px) {
+  #main {
+    margin: 0 auto;
+  }
+}
+#title {
+  width: 100%;
+  text-align: center;
+  font-family: "Pacifico", cursive, Arial, Helvetica, sans-serif;
+  position: relative;
+  background-color: transparent;
+}
+#tribute-info {
+  position: center;
+  color: #e2d4b1;
+  font-family: Caveat;
+  text-align: justify;
+  font-size: 2.8rem;
+  max-width: 100%;
+  margin: 10px;
+}
+#contenedor {
+  margin: -8px -8px -8px -8px;
+  width: 100%;
+  margin: 0 auto;
+  position: center;
+}
+@media (max-width: 460px) {
+  #contenedor {
+    margin: 0 auto;
+  }
+}
+
+#texto-encima {
+  color: #e2d4b1;
+  width: auto;
+  text-shadow: 3px 0px 0px black, 0px 3px 0px black, -3px 0px 0px black,
+    0px -3px 0px black;
+}
+h1 {
+  margin-top: 0;
+  font-size: 7rem;
+  margin-bottom: 0;
+}
+
+@media (max-width: 460px) {
+  h1 {
+    font-size: 3.5rem;
+    line-height: 1.2;
+  }
+}
+h2 {
+  font-size: 3.5rem;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+@media (max-width: 460px) {
+  h2 {
+    margin-bottom: 0;
+    text-align: center;
+    font-size: 2.5rem;
+    line-height: 1.2;
+  }
+}
+#img-div {
+  background: transparent;
+  padding: 4px;
+  margin: 0;
+}
+/*User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding
+its original size.*/
+@media (max-width: 460px) {
+  #img-div {
+    margin: 0 auto;
+  }
+}
+/*User Story #9: The img element should be centered within its parent element.*/
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+}
+#image {
+  width: 100%;
+  margin: 0 auto;
+  position: center;
+}
+@media (max-width: 460px) {
+  #image {
+    margin: 0 auto;
+  }
+}
+
+#img-caption {
+  font-family: Caveat;
+  color: #e2d4b1;
+  position: center;
+  font-size: 1.8rem;
+  text-align: center;
+  padding: 6px;
+}
+#tribute-link {
+  font: Caveat;
+  font-size: 1.8rem;
+}
+a {
+  font-size: 1.8rem;
+  color: #477ca7;
+}
+a:visited {
+  font-size: 1.8rem;
+  color: #8f6363;
+}
+#p_format {
+  text-align: center;
+  font-family: Caveat;
+  font-size: 2.2rem;
+}
+#foot {
+  font-family: "Courier New", Courier, monospace;
+  text-align: right;
+  font-size: 1.8rem;
+}
